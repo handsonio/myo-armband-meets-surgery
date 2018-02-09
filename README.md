@@ -4,7 +4,7 @@ This time we investigate a concrete use case and how the technology can be used 
 
 #Introducing the Myo Armband 
 
-![wearables_myo-armband-teardown-02](https://handson.io/images/2018/02/wearables_myo-armband-teardown-02.jpg)
+![wearables_myo-armband-teardown-02](https://handson.io/content/images/2018/02/wearables_myo-armband-teardown-02.jpg)
 
 > The Myo armband is a wearable gesture control and motion control device that lets you take control of your phone, computer, and so much more, touch-free. source: [Myo.com](https://www.myo.com)
 
@@ -14,7 +14,7 @@ The main concept at work here is [Electromyography](https://en.wikipedia.org/wik
 
 We really like to demystifie how things work and inspire people to dream big and think about how they can impact the world. In this experiment we have been inspired by TedCas, a healthcare technology company producing natural and intuitive human-computer interfaces for healthcare.
 
-![giphy--4-](https://handson.io/images/2018/02/giphy--4-.gif)
+![giphy--4-](https://handson.io/content/images/2018/02/giphy--4-.gif)
 
 #Natural interaction
 
@@ -36,14 +36,14 @@ We have to be lazy in order to prototype quickly (time is money!), so this time 
 
 One extremely cool thing about this prototype is that we can go a bit creative thanks to very smart UI components that make the life easier, we have a vision for the user experience and we first sketch it.
 
-![Scan-9-Feb-2018-at-00.40](https://handson.io/images/2018/02/Scan-9-Feb-2018-at-00.40.jpg)
+![Scan-9-Feb-2018-at-00.40](https://handson.io/content/images/2018/02/Scan-9-Feb-2018-at-00.40.jpg)
 
 
 Two specific elements helped us to laid out the foundation for the interaction with the user. 
 
 * "[Slick - the last carousel you'll ever need](http://kenwheeler.github.io/slick/)" is used in the left pane, reacts to LEFT or RIGHT to move the next "slide" of the carousel accordingly.
 
-![_DSC0094](https://handson.io/images/2018/02/_DSC0094.jpg)
+![_DSC0094](https://handson.io/content/images/2018/02/_DSC0094.jpg)
 
 * "[LibGif.js - JavaScript GIF parser and player](https://github.com/buzzfeed/libgif-js)" is used to let the user navigate into the medical pictures, reacts to LEFT, RIGHT, FIST and detect rotation of the forearm to finely control the current image.
 
@@ -51,16 +51,16 @@ Two specific elements helped us to laid out the foundation for the interaction w
 
 Find some animated gif of medical images that look professional and also demonstrate the potential of the digital imagery produced by today's medical equipment applied to innovation in the field of human machine interaction. 
 
-![head_skeleton_scan_bw_animated](https://handson.io/images/2018/02/head_skeleton_scan_bw_animated.gif)
+![head_skeleton_scan_bw_animated](https://handson.io/content/images/2018/02/head_skeleton_scan_bw_animated.gif)
 
-![front_head_skeleton_vessels](https://handson.io/images/2018/02/front_head_skeleton_vessels.gif) 
+![front_head_skeleton_vessels](https://handson.io/content/images/2018/02/front_head_skeleton_vessels.gif) 
 
 
 ## Let's code and pitch
 
 We have the vision, we confirm feasability for a very quick prototyping. We just need to put the glue to hold the pieces together, the html/javascript code of this prototype is [located in this repository](https://github.com/handsonio/myo-armband-meets-surgery/tree/master).
 
-![giphy-downsized-large](https://handson.io/images/2018/02/giphy-downsized-large.gif)
+![giphy-downsized-large](https://handson.io/content/images/2018/02/giphy-downsized-large.gif)
 
 # Conclusion
 
