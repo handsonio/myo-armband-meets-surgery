@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'exoexrtabolditalic';
+    src: url('exo-extrabolditalic-webfont.eot');
+    src: url('exo-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('exo-extrabolditalic-webfont.woff2') format('woff2'),
+         url('exo-extrabolditalic-webfont.woff') format('woff'),
+         url('exo-extrabolditalic-webfont.ttf') format('truetype'),
+         url('exo-extrabolditalic-webfont.svg#exoextrabolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2extra_light_italic';
+    src: url('exo2-extralightitalic-webfont.eot');
+    src: url('exo2-extralightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('exo2-extralightitalic-webfont.woff2') format('woff2'),
+         url('exo2-extralightitalic-webfont.woff') format('woff'),
+         url('exo2-extralightitalic-webfont.ttf') format('truetype'),
+         url('exo2-extralightitalic-webfont.svg#exo_2extra_light_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-light-webfont.woff2') format('woff2'),
+         url('opensans-light-webfont.woff') format('woff'),
+         url('opensans-light-webfont.ttf') format('truetype'),
+         url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2extra_light';
+    src: url('exo2-extralight-webfont.eot');
+    src: url('exo2-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('exo2-extralight-webfont.woff2') format('woff2'),
+         url('exo2-extralight-webfont.woff') format('woff'),
+         url('exo2-extralight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 100vh;
+}
+
+.logo {
+    font-family: 'exoexrtabolditalic';
+    color: #ffffff;
+    margin-bottom: 0px;
+    font-size: 2.7em;
+    text-align: center;
+}
+.sub-title {
+    font-family: 'exo_2extra_light';
+    letter-spacing: 0.57em;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 5px;
+    overflow: hidden;
+    font-size: 0.8em;
+    text-align: center;
+}
+.section {
+  height: 96vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+
+}
+  .side {
+    background-color: #0971B2;
+    width: 28vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    float: left;
+  }
+    .side-patient-file {
+      border: 0px solid white;
+      margin-top: 5em;
+      height: 60%;
+      padding-left: 40px;
+      padding-right: 40px;
+
+    }
+    .side-patient-file ul {
+      width: 100%;      
+      list-style:  none;
+      padding: 0;
+      margin: 0 auto;
+    }
+    .side-patient-file ul li {
+      text-align: center;
+    }
+    .side-patient-file ul li.patient-fullname {
+      width: 200px;
+      margin: 10px auto;
+      padding: 5px;
+      border-radius: 5px;
+      font-family: 'exo_2extra_light';
+      font-size: 1.5em;
+      background-color: #064972;
+      color: #59BFFE;
+    }
+    .side-patient-file ul li.patient-blood-group {
+      width: 2em;
+      height: 2em;
+      margin: 30px auto;
+      border-radius: 50%;
+      font-family: 'exo_2extra_light';
+      font-size: 1.5em;
+      line-height: 2em;
+      background-color: #BF1D1D;
+      color: white;
+    }
+    .side-patient-file img {
+      border-radius: 50%;
+      border: 0px solid white;
+      width: 130px;
+      height: 130px;
+    }
+      .patient-card {
+        width: 100%;
+        height: 200px;
+        margin: 70px auto 0 auto;
+        
+        /*border: 1px solid white;*/
+      }
+      .patient-card.detail {
+        padding: 20px;
+      }
+      .patient-card h2 {
+        font-family: 'Montserrat';
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.9em;
+      }
+      .patient-card p {
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 0.9em;
+      }
+      .action {
+        width: 140px;
+        height: 140px;
+        margin: 10px auto;
+        border-radius: 50%;
+        border: 6px solid rgba(255,255,255,0.5);
+        font-family: 'exo_2extra_light';
+        font-size: 1.5em;
+        line-height: 2em;
+        
+        color: white;
+      }
+  .main {
+    background-color: black;
+    width: 68vw;
+    padding-left: 1vw;
+    padding-right: 1vw;    
+    float: left;
+  }
+  .status-icon {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.4);
+  } 
+  .lock-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    opacity: 0.4;
+    background: url('../img/lock.svg') no-repeat;
+  }
+  .status-icon.active {
+   border: 3px solid #9AFE0F;
+  }
+  .main-section-item {
+    margin-top: 2.5em;
+  }
+  .viewer {
+    display: table;
+    border: 0px solid white;
+    margin-left: 1vw;
+    width: 80%;
+    height: 90%;
+    float: left;
+  }
+    .viewer-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .viewer img {
+      display: block;
+      border: 0px solid white;
+      width: 500px;
+      height: 500px;
+      margin: auto;
+    }
+    .viewer div.jsgif {
+      display: block;
+      border: 0px solid white;
+      width: 500px;
+      height: 500px;
+      margin: auto;      
+    }
+    .viewer img.inactive {
+      display: none;
+    }
+    .viewer div.jsgif.inactive {
+      display: none;
+    }
+
+  .thumbnails {
+    border: 0px solid white;
+    width: 15%;
+    float: right;
+  }
+  .thumbnail-item {    
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 25px auto;
+  }
+    .thumbnail-item img {
+      border-radius: 10px 10px 10px 10px;  
+      border: 3px solid black;
+      width: 100%;
+      height: 100%;
+    }
+    .thumbnail-item img.active {
+      border-radius: 10px 10px 10px 10px;  
+      border: 3px solid #9AFE0F;
+    }
+
+br {
+  float: clear;
+}
+
+/* - POSES - */
+
+#poses-outer-container {
+  display: table;
+  width: 100%;
+  height: 100%;
+
+}
+
+#poses-inner-container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width: 988px ;
+  margin: 0 auto;
+}
+
+img.pose {
+  margin: 50px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------- HOME PAGE ------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+.waiting-surgeon {
+  padding-top: 17%;
+}
+
+.waiting-surgeon h1 {
+  color: white;
+  font-family: 'exo_2extra_light';
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.analysing-bio {
+  color: white;
+  font-family: 'exo_2extra_light';
+  text-align: center;
+  margin-top: 10%;
+  display: none;
+}
+
+.analysing-bio h1 {
+  color: white;
+  font-family: 'exo_2extra_light';
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+.analysing-bio img {
+  display: : none;
+}
+
+.detected-alan {
+  display: none;
+  margin-top:10%;
+  text-align: center;
+}
+
+.detected-alan h1 {
+  color: white;
+  font-family: 'exo_2extra_light';
+  text-align: center;
+}
+
+.detected-alan h2
+{
+  color: white;
+  font-family: 'exo_2extra_light';
+  text-align: center;
+}
+
+#imgAlan{
+  width: 150px;
+  height: 150px;  
+}
+
+.plot{
+  width:500px;
+  height:200px;
+  display : inline-block;
+  border: none;
+}

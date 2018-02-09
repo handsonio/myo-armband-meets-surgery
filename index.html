@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js'></script>
+    <script type="text/javascript" src="js/myo.js"></script>
+    <script type="text/javascript" src="js/myo.experimental.js"></script>
+    
+        
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <div class="section side">
+      <div id="patientcard-status" class="status-icon"></div>
+      <div id="patientcard-status-arm-busy" class="lock-icon"></div>
+      <h1 class="logo">handson.io</h1>
+      <p class="sub-title">SURGERY SYSTEMS</p>
+      <div class="side-patient-file">
+        <ul>
+          <li>
+            <img src="img/benoit_toussaint.jpg" alt=""/>
+          </li>
+          <li class="patient-fullname">Benoît Toussaint</li>
+          <li class="patient-blood-group">A+</li>
+
+        </ul>
+
+        <div class="patient-card">
+          <div>
+            <h2>Dossier socio-administratif</h2>
+            <p>Age : 34 ans</p>
+            <p>Taille : 1m89</p>
+            <p>Status : Marié</p>
+            <p>Latéralisation : Droitier</p>
+          </div>
+          <div>
+            <h2>Dossier Preopératoire</h2>
+            <p>Fummeur : non</p>
+            <p>Psychothropes : non</p>
+            <p>Antécédents chirurgicaux : non</p>
+            <p>Problèmes cardiaques : non</p>
+          </div>
+<!--           <div>
+            <div id="call-postop-team" class="action">
+              
+            </div>
+          </div>
+ -->        
+        </div>
+      </div>
+    </div>
+    <div class="section main">
+      <div id="viewer-fist-status" class="status-icon"></div>
+      <div id="viewer-status-arm-busy" class="lock-icon"></div>
+      <div class="main-section-item viewer">
+          <div class="viewer-cell">
+            <img src="img/head_skeleton_scan_bw_preview_thumbnail.gif" 
+              id="viewer-item-1" 
+              alt="" 
+              class="inactive"
+              data-index = "0"
+              rel:animated_src="img/head_skeleton_scan_bw_animated.gif" rel:auto_play="0" rel:rubbable="0"/>
+
+            <img src="img/front_head_skeleton_vessels_thumbnail.gif" 
+              id="viewer-item-2" 
+              alt="" 
+              class="inactive"
+              data-index = "1"
+              rel:animated_src="img/front_head_skeleton_vessels.gif" rel:auto_play="0" rel:rubbable="0"/>
+
+            <img src="img/side_head_skeleton_vessels_thumbnail.gif" 
+              id="viewer-item-3" 
+              alt="" 
+              class="inactive"
+              data-index = "2"
+              rel:animated_src="img/side_head_skeleton_vessels.gif" rel:auto_play="0" rel:rubbable="0"/>
+          </div>
+      </div>
+      <div class="main-section-item thumbnails">
+        <div class="thumbnail-item">
+          <img src="img/head_skeleton_scan_bw_preview_thumbnail.gif" id="thumbnail-item-1" alt=""/>
+        </div>
+        <div class="thumbnail-item">
+          <img src="img/front_head_skeleton_vessels_thumbnail.gif" id="thumbnail-item-2" alt=""/>
+        </div>
+        <div class="thumbnail-item ">
+          <img src="img/side_head_skeleton_vessels_thumbnail.gif" id="thumbnail-item-3" alt=""/>
+        </div>
+      </div>
+      <br />
+    </div>
+    <br />
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/libgif.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

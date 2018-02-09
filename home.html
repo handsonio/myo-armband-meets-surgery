@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" href="css/style.css">
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.min.js"></script>
+	    <script type="text/javascript" src="js/myo.js"></script>
+	    <script type="text/javascript" src="js/myo.experimental.js"></script>
+      <script type="text/javascript" src="js/home.js"></script>
+	    
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+
+  	<div class="waiting-surgeon" id="section-waiting-surgeon">
+  		<h1>Waiting for the surgeon</h1>
+  	</div>
+
+  	<div class="analysing-bio" id="section-analysing-bio">
+  		<h1>Analysing biometrics</h1>
+      <div style='display:none'>
+        <div>Pod 0</div>
+        <div id='pod0' class='plot' ></div>
+      </div>
+      <div style='display:none'>
+        <div>Pod 1</div>
+        <div id='pod1' class='plot' ></div>
+      </div>
+      <div style='display:none'>
+        <div>Pod 2</div>
+        <div id='pod2' class='plot' ></div>
+      </div>
+      <div style='display:inline-block'>        
+        <div id='pod3' class='plot' ></div>
+      </div>
+      <div style='display:none'>
+        <div>Pod 4</div>
+        <div id='pod4' class='plot' ></div>
+      </div>
+      <div style='display:none'>
+        <div>Pod 5</div>
+        <div id='pod5' class='plot' ></div>
+      </div>
+      <div style='display:block'>
+        <div id='pod6' class='plot' ></div>
+      </div>
+      <div style='display:none'>
+        <div>Pod 7</div>
+        <div id='pod7' class='plot' ></div>
+      </div>
+    </div>     
+
+  	<div class="detected-alan" id="section-detected-alan">
+  		<h1 id="h1detected">Detected</h1>  		 
+      <img id="imgAlan" src="img/alan.png">	
+      <h2>Alan Hortz</h2> 
+  	</div>
+
+  </body>
+
+</html>

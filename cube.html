@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>My first Three.js app</title>
+    <style>
+      body { margin: 0; }
+      canvas { width: 100%; height: 100% }
+    </style>
+  </head>
+  <body>
+    <script src="js/three.min.js"></script>
+    <script src="js/myo.js"></script>
+    <script>
+      var myo = Myo.create(0);
+      var scene = new THREE.Scene();
+      var width = window.innerWidth;
+      var height = window.innerHeight;
+      
+      var camera = new THREE.PerspectiveCamera( 75, width / height, 2, 1000 );
+
+      
+
+
+      var renderer = new THREE.WebGLRenderer();
+      renderer.setSize( window.innerWidth, window.innerHeight );
+      document.body.appendChild( renderer.domElement );
+
+      var geometry = new THREE.BoxGeometry( 2, 1, 1 );
+      var material = new THREE.MeshBasicMaterial( { color: 0x00ff00, wireframe: true } );
+      var cube = new THREE.Mesh( geometry, material );
+      scene.add( cube );
+      
+
+      camera.position.z = 5;
+
+
+      var render = function (orientation) {
+        //requestAnimationFrame( render );
+
+
+
+        cube.quaternion.x = orientation.x;
+        cube.quaternion.y = orientation.y;
+        cube.quaternion.z = orientation.z;
+        cube.quaternion.w = orientation.w;
+
+        //cube.quaternion.normalize();
+
+        renderer.render(scene, camera);
+      };
+
+      
+
+      myo.on('imu', function(data){
+        render(data.orientation);  
+      }); 
+    </script>
+  </body>
+</html>
