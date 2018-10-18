@@ -1,3 +1,33 @@
+# Handson.io - Surgery meets Myo armband
+
+![The Myo armband used in surgery ! - Prototype](https://handson.io/content/images/2018/02/giphy-downsized-large-1.gif)
+
+
+Read more about this prototype in this [article](https://handson.io/prototyping-x-surgery/)
+
+## Installation
+
+* Clone the repository
+* Make sure you have python installed on your system
+
+## Access the demo
+
+* Open a terminal and navigate to the root directory where you cloned the files
+
+* Start a simple http server listening on the port 8000 with the following command : `python -m SimpleHTTPServer 8000`
+
+* Connect your Myo armband and make sure to properly calibrate it
+
+* Open your web browser and navigate to [http://localhost:8000](http://localhost:8000)
+
+## Additional examples
+
+* A 3D cube representing the Myo armband :  [http://localhost:8000/cube.html](http://localhost:8000/cube.html)
+
+* A web page where the current pose is highlighted : [http://localhost:8000/poses.html](http://localhost:8000/poses.html)
+
+
+
 # Rapid Prototyping X Surgery ! !
 
 This time we investigate a concrete use case and how the technology can be used to interact with computer without actually touching them ! For a short period of time, we are going to put ourselves in the shoes of a surgeon.
